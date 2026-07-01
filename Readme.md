@@ -20,6 +20,26 @@ Description : A dynamic news search application that fetches the latest news art
 
 Tech Stack : HTML5, CSS3, JavaScript, DOM Manipulation, IIFE (Immediately Invoked Function Expression)
 
-Live Demo : []()
+> NOTE: Since this project requires API_KEY and i don't want to expose the API i share the images of this project
 
-Code Link : []()
+1. Home page
+![news_1](./images/news_1.png)
+
+2. Home page(zoom out)
+![news_2](./images/news_2.png)
+
+3. Search Topic(eg. programming) in search bar
+![news_3](./images/news_3.png)
+
+4. Topic related news
+![news_4](./images/news_4.png)
+
+---
+
+
+## 3. Calculator
+
+Description : A responsive calculator application built with JavaScript that performs basic arithmetic operations. The project utilizes HTML data-* attributes to manage button actions, the eval() function to evaluate mathematical expressions, and event listeners to handle user interactions efficiently. It demonstrates DOM manipulation, event handling, and dynamic expression evaluation.
+
+Tech Stack : HTML5, CSS3, JavaScript, Event Listeners, HTML data-* Attributes, eval() Function
+
