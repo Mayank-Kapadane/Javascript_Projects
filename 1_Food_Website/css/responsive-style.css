@@ -1,0 +1,94 @@
+@media (max-width: 1024px) {
+}
+
+/* iPad Pro (No Burger icon) */
+/* iPad mini (show Burger icon) */
+@media (max-width: 991px) {
+    /* custom class */
+    .text-content {
+        width: 100%;
+    }
+
+    /* navbar brand ( logo ) */
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125remm;
+    }
+    .navigation-wrap {
+        text-align: center;
+
+        /* Solution of problem 1 */
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link {
+        /* 'nav-link' inside 'navigation-wrap' */
+        line-height: 1.875rem;
+    }
+
+    /* It shows too much space from top in banner (hero) */
+    /* banner design */
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    /* Carousel Design */
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: 0;
+    }
+}
+
+/* iPhone SE */
+@media (max-width: 767px) {
+    /* Custom CSS */
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    /* Banner design */
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; */
+        background-position: center center;
+    }
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    /* Carousel Design */
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: -1 3.125rem;
+    }
+
+    /* news letter */
+    .news-letter-form {
+        width: 75%;
+    }
+    .news-letter-form button {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* footer design */
+    .footer .footer-link,
+    .footer a i{
+        padding : 0 0.7rem;
+    }
+}
+
+@media (max-width: 330px) {
+    /* Carousel Design */
+    .testimonial-section .carousel-item {
+        padding: 10rem 3.125rem;
+    }
+    .testimonial-section .carousel-item h5 {
+        word-spacing: 0.2rem;
+        font-size: 0.7rem;
+    }
+}
