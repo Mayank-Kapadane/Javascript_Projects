@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search Bar</title>
+    
+    <!-- if you'r using,
+    font awesome then it must be present in your project's working directiory. so that we can use it. 
+    otherwise we can not use it -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Your custom css should be below the at the bottom of all included css. so that other css will not override other css. even your css overriden those css -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+
+
+</head>
+<body>
+    
+    <section class="container">
+        <form >
+            <!-- search icon -->
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="search-item" placeholder="Search product" onkeyup="search()">
+        </form>
+        
+        <div class="product-list" id="product-list">
+            <div class="product">
+                <img src="./img/image-1.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>T shirt for Everyone</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/image-2.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>Shoes for Everyone</h2>
+                    <h3>$12</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/image-3.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>sport shoes </h2>
+                    <h3>$12</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/image-4.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>Smart Hoodie </h2>
+                    <h3>$26</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/image-5.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>Google Hoodie </h2>
+                    <h3>$35</h3>
+                </div>
+            </div>   
+            <div class="product">
+                <img src="./img/image-6.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>Travel bag </h2>
+                    <h3>$13</h3>
+                </div>
+            </div>   
+            <div class="product">
+                <img src="./img/image-7.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>school bag </h2>
+                    <h3>$13</h3>
+                </div>
+            </div>   
+            <div class="product">
+                <img src="./img/image-8.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>white T shirt </h2>
+                    <h3>$15</h3>
+                </div>
+            </div>   
+            <div class="product">
+                <img src="./img/image-9.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>Blue cap </h2>
+                    <h3>$5</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/image-10.jpg" alt="t-shirt">
+                <div class="p-details">
+                    <h2>Hoodie cap </h2>
+                    <h3>$8</h3>
+                </div>
+            </div>
+           
+
+
+
+        </div>
+    </section>
+
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
