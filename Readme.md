@@ -20,15 +20,19 @@ Tech Stack : HTML5, CSS3, JavaScript, DOM Manipulation, IIFE (Immediately Invoke
 > NOTE: Since this project requires API_KEY and i don't want to expose the API i share the images of this project
 
 1. Home page
+
 ![news_1](./images/news_1.png)
 
 2. Home page(zoom out)
+
 ![news_2](./images/news_2.png)
 
 3. Search Topic(eg. programming) in search bar
+
 ![news_3](./images/news_3.png)
 
 4. Topic related news
+
 ![news_4](./images/news_4.png)
 
 ---
